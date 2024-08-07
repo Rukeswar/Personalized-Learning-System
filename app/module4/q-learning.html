@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="course-header">
+        <h1>Q-Learning</h1>
+    </header>
+    <main class="course-main">
+        <section id="q-learning-content">
+            <h2>Introduction to Q-Learning</h2>
+            <p>Q-learning is a model-free reinforcement learning algorithm used to learn optimal actions in an environment without requiring a model of the environment's dynamics. It is based on the concept of the Q-value, which represents the expected utility of taking a specific action in a given state.</p>
+
+            <h2>Key Concepts in Q-Learning</h2>
+            <h3>1. Q-Value Update</h3>
+            <p>The Q-value for a state-action pair is updated iteratively based on the reward received and the expected future rewards (discounted). This iterative update improves the policy over time.</p>
+
+            <h3>2. Exploration vs. Exploitation</h3>
+            <p>Q-learning balances exploration (trying new actions) and exploitation (choosing actions based on current knowledge) through strategies like epsilon-greedy exploration.</p>
+
+            <h2>Applications of Q-Learning</h2>
+            <p>Q-learning is applied in various scenarios, including:</p>
+            <ul>
+                <li>Game playing and strategy optimization</li>
+                <li>Robotics for path planning and control</li>
+                <li>Financial trading and portfolio optimization</li>
+                <li>Autonomous vehicle navigation</li>
+                <li>Resource allocation and scheduling</li>
+            </ul>
+
+            <h2>Challenges and Considerations</h2>
+            <p>Challenges in Q-learning include defining suitable reward functions, handling large state spaces, and dealing with exploration-exploitation trade-offs. Techniques like deep Q-networks (DQNs) and prioritized experience replay are used to enhance Q-learning performance.</p>
+        </section>
+        <a href="../course.html" class="back-link">Back to Course</a>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
